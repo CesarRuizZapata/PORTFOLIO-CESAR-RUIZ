@@ -1,0 +1,16 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "Proyecto de pruebas cypress",
+  "main": "index.js",
+  "scripts": {
+    "chrome": "cypress run --spec cypress/e2e/2-advanced-examples/zerobank.cy.js --browser chrome",
+    "edge": "cypress run --spec cypress/e2e/2-advanced-examples/zerobank.cy.js --browser edge "
+    
+  },
+  "author": "Cesar Ruiz",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.6.4"
+  }
+}
